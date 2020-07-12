@@ -1,24 +1,13 @@
 body{
-    background-color: #eee;
+    background-color: #eee;}
+p{
+    display: inline;
 }
-table{
-    width: 100%;
-    background-color: white;
-    border-collapse: collapse;
+#invisible{
+    display: none;
 }
 
-tr:nth-child(even){
-    background-color: cornsilk;
+span{
+    display:block;
 }
-td{
-    border: solid 1px #ddd
-    padding: 8px;}
-table th {
-    background-color: green;
-    color: white;
-    text-align: left;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-}
+
