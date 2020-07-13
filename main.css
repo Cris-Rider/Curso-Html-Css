@@ -1,13 +1,12 @@
 body{
     background-color: #eee;}
 p{
-    display: inline;
+    max-width: 350px;
+    background-color: lightblue;
+    margin: auto;
+    position: relative;
+    left: 15px;
+    right: 15px;
+    top: 0px;
+    bottom: 0px;
 }
-#invisible{
-    display: none;
-}
-
-span{
-    display:block;
-}
-
