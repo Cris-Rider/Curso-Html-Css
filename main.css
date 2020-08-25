@@ -1,16 +1,7 @@
 body{
     background-color: #eee;}
  .fondov1{
-     height: 300px;
-     background-color:lightcoral;
-     background-image: url('https://placekitten.com/200/300');
-     background-repeat: no-repeat;
-     background-position: left top;
-     background-attachment: fixed;
-     background-size: cover;
+     background-color: hsl(255, 100%, 75%);
+     opacity: 0.7;
  }
 
-.Segunda_forma_de_hacer_un_fondo{
-    background: lightcoral url('https://placekitten.com/200/300') no-repeat left top fixed;
-    background-size: cover;
-}
