@@ -1,19 +1,47 @@
 body{
     background-color: #eee;}
 
-.box {
-    position: relative;
-    left: 50px;
-    top: 50px;
-    width: 100px;
-    height: 100px;
+.boton1{
+    padding: 10px 15px;
+    margin: 10px 15px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
     background-color: white;
-    box-shadow: 1px 2px 3px lightskyblue;
-    transition: width 0.3s;
-    transition-delay: 0.5s ;
+    border-left: 3px solid lightcoral;
+    box-shadow: 2px 2px 5px lightslategrey;
 }
 
-.box:hover{
+.boton1:hover{
     transform: scale(1.05,1.05);
-    background-color: lightsteelblue;
+}
+
+.boton2{
+    padding: 10px 15px;
+    margin: 10px 15px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: white;
+    border-left: 3px solid lightgreen;
+    box-shadow: 2px 2px 5px lightslategrey;
+}
+
+.boton2:hover{
+    box-shadow: 4px 4px 7px lightslategrey;
+}
+
+.boton3{
+    padding: 10px 15px;
+    margin: 10px 15px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: white;
+    border-left: 3px solid lightskyblue;
+    box-shadow: 2px 2px 5px lightslategrey;
+}
+
+.boton3:hover{
+    background-color: lightgray
 }
