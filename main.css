@@ -1,47 +1,11 @@
 body{
     background-color: #eee;}
 
-.boton1{
-    padding: 10px 15px;
-    margin: 10px 15px;
-    width: 200px;
-    height: 50px;
-    text-align: center;
-    background-color: white;
-    border-left: 3px solid lightcoral;
-    box-shadow: 2px 2px 5px lightslategrey;
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr ;
 }
 
-.boton1:hover{
-    transform: scale(1.05,1.05);
-}
-
-.boton2{
-    padding: 10px 15px;
-    margin: 10px 15px;
-    width: 200px;
-    height: 50px;
-    text-align: center;
-    background-color: white;
-    border-left: 3px solid lightgreen;
-    box-shadow: 2px 2px 5px lightslategrey;
-}
-
-.boton2:hover{
-    box-shadow: 4px 4px 7px lightslategrey;
-}
-
-.boton3{
-    padding: 10px 15px;
-    margin: 10px 15px;
-    width: 200px;
-    height: 50px;
-    text-align: center;
-    background-color: white;
-    border-left: 3px solid lightskyblue;
-    box-shadow: 2px 2px 5px lightslategrey;
-}
-
-.boton3:hover{
-    background-color: lightgray
+.element{
+    background-color: indianred;
 }
