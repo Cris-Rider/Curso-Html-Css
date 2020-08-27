@@ -3,6 +3,7 @@ body{
 
 .grid{
     display: grid;
+    
     grid-template-areas: "header header"
                          "content sidebar"
                          "footer footer";
@@ -10,6 +11,8 @@ body{
     grid-template-columns: 1fr 200px;
     grid-auto-rows: 140px;
     grid-auto-flow: row;
+    justify-items: stretch;
+    align-items: center;
 }
 
 
@@ -28,4 +31,4 @@ body{
 
 .verde{
     background-color: lightgreen;
-}
+} 
