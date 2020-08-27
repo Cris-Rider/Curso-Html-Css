@@ -15,6 +15,10 @@ body{
     align-items: center;
 }
 
+.item1{
+    justify-self: center;
+    align-self: center;
+}
 
 .header{
     grid-column: col-inicio / col-fin 3; 
