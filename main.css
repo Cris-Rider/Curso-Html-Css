@@ -11,3 +11,9 @@ body{
 .element{
     background-color: indianred;
 }
+
+.header{
+    grid-column: 1 / 6; /*Hay dos formas de establecer ros y column. Esta es la primera*/
+    grid-row-start: 1; /*Segunda manera*/
+    grid-row-end: 3;
+}
