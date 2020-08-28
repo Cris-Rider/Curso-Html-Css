@@ -10,6 +10,8 @@ body{
 
 .primero{
    flex-grow: 1;
+   flex-basis: 220px;
+   flex: 1 220px;/*primera variable flex-grow, segunda flex-basis*/
 }
 
 .segundo{
