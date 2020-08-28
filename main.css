@@ -1,32 +1,11 @@
-html{
-    height: 100%;
-}
 body{
+    width: 200px;
     background-color: #eee;
-    margin: 0;
-    height: 100%;
 }
 
-.grid{
-    display: grid;
-    width: 100%;
-    height: 100%;
-    grid-template-columns: repeat(4,50px);
-    grid-template-rows: repeat(2,50px);
-    grid-gap: 5px;
-    justify-content: center;
-    align-content: center;
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;/*el primer valor corresponde a flex-direction y el segundo a flez-wrap*/
 }
-
-
-.rojo{
-    background-color: indianred;
-}
-
-.azul{
-    background-color: lightskyblue;
-}
-
-.verde{
-    background-color: lightgreen;
-} 
