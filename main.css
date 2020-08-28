@@ -5,7 +5,7 @@ body{
 
 .flex{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-flow: row wrap;/*el primer valor corresponde a flex-direction y el segundo a flez-wrap*/
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: flex-end;
 }
