@@ -1,5 +1,4 @@
 body{
-    width: 200px;
     background-color: #eee;
 }
 
@@ -10,13 +9,13 @@ body{
 }
 
 .primero{
-    order: 1; /*lo ordena en la primera posicion de
+   flex-grow: 1;
 }
 
 .segundo{
-    order: 0;
+    flex-grow: 1;
 }
 
 .tercero{
-    order: 0;
+    flex-grow: 2;
 }
