@@ -16,6 +16,7 @@ body{
 
 .segundo{
     flex-grow: 1;
+    align-self: baseline;
 }
 
 .tercero{
